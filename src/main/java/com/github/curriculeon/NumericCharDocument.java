@@ -12,6 +12,7 @@ public class NumericCharDocument extends Document {
 
     @Override
     public void write(String contentToBeWritten) {
+
     }
 
     private Boolean isNumeric(String s) {

@@ -27,6 +27,7 @@ public class DocumentWriteToLineTest {
         String contentToBeWritten = "The\nquick\nbrown\nfox";
         String replacement = "quicker";
         String expected = contentToBeWritten.replaceAll("quick", replacement);
+        System.out.println(expected);
 
         Document documentWriter = new Document(fileName);
         documentWriter.write(contentToBeWritten);
